@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="CALCULADORA DE &#193;REA GEOM&#201;TRICAS"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-21 11:05:41 "/>
+        <attribute name="created" value="QWx1bm87VVBMMi0wN0E7MjAyNS0wMi0yMTsiMTA6NDQ6MzIgIjsyMTk4"/>
+        <attribute name="edited" value="QWx1bm87VVBMMi0wN0E7MjAyNS0wMi0yMTsiMTE6MDU6NDEgIjsxOzIzMDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Ol&#225;! Sejam bem-vindo ao calculadora de &#225;rea de figuras geom&#233;tricas&quot;" newline="True"/>
+            <output expression="&quot;Por favor digite as medidas do quadrado&quot;" newline="True"/>
+            <declare name="Q1" type="Integer" array="False" size=""/>
+            <input variable="Q1"/>
+            <output expression="&quot;Agora, digite as medidas do tri&#226;ngulo&quot;" newline="True"/>
+            <declare name="T1" type="Integer" array="False" size=""/>
+            <input variable="T1"/>
+            <output expression="&quot;Para finalizar, coloque as medidas do cubo&quot;" newline="True"/>
+            <declare name="C1" type="Integer" array="False" size=""/>
+            <input variable="C1"/>
+            <declare name="RESULTADOQUADRADO" type="Integer" array="False" size=""/>
+            <assign variable="RESULTADOQUADRADO" expression="Q1*Q1"/>
+            <output expression="&quot;A &#225;rea do quadrado &#233;:&quot; &amp; RESULTADOQUADRADO &amp; &quot;.&quot;" newline="True"/>
+            <declare name="RESULTADOTRIANGULO" type="Integer" array="False" size=""/>
+            <assign variable="RESULTADOTRIANGULO" expression="T1*T1/2"/>
+            <output expression="&quot;A &#225;rea do tri&#226;ngulo &#233;:&quot; &amp; RESULTADOTRIANGULO &amp; &quot;.&quot;" newline="True"/>
+            <declare name="RESULTADOCUBO" type="Integer" array="False" size=""/>
+            <assign variable="RESULTADOCUBO" expression="C1*C1*C1"/>
+            <output expression="&quot;A &#225;rea do cubo &#233;:&quot; &amp; RESULTADOCUBO &amp; &quot;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
